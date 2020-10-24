@@ -1,3 +1,166 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+html { margin: 0; padding: 0; }
+
+body { margin: 0; padding: 0; }
+
+.nav{
+    display: flex;
+    padding-left: 81%;
+}
+.nav > div{
+    padding: 1em;
+    font-family: 'Heebo', sans-serif;
+}
+
+.intro{
+    display: flex;
+    padding: 100px 148px 148px 148px;
+    justify-content: space-between;
+}
+.intro .left >p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    height: 105px;
+    width: 506px;
+    left: 148px;
+    top: 228px;
+}
+.intro .left{
+    width : 36%;
+}
+.intro .left >span{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    height: 66px;
+    width: 497px;
+    left: 148px;
+    top: 373px;
+}
+.intro button{
+    position: absolute;
+    width: 208px;
+    height: 47px;
+    left: 154px;
+    top: 477px;
+    background: #FF6464;
+    border-radius: 2px;
+    border-style: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+    margin-left: -5px;
+}
+.intro .right{
+    padding-right: 148px;
+}
+.intro div >img{
+    padding-left: 50%;
+    padding-top: 7%;
+}
+
+.recentPosts{
+    padding: 29px 148px 300px 148px;
+    background: #EDF7FA;
+    height: 70px;
+}
+.recentPosts >section{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.recentPosts .head > div{
+    font-family: 'Heebo', sans-serif;
+    padding-bottom: 20px;
+}
+.recentPosts .head .title{
+    font-size: 22px;
     display: flex;
 }
+.recentPosts .head .viewAll{
+    font-size: 16px;
+    text-align: right;
+    color: #00A8CC;
+}
+.recentPosts .posts >div{
+    background: white;
+    box-shadow: rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.recentPosts .posts div >p, .recentPosts .posts div >h2, 
+.recentPosts .posts div >span{
+    width: 450px; 
+    font-family: 'Heebo', sans-serif;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 27px;
+}
+
+.futureWork{
+    padding: 29px 148px 300px 148px;
+    height: 550px;
+}
+.futureWork >header{
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.futureWork #fw{
+    display: flex;
+}
+.futureWork >section .right{
+    margin-left: 35px;
+    width: 65%;
+}
+.futureWork >section .right .info{
+    display: flex;
+}
+.futureWork >section .right .info .year{
+    background: #142850;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+    margin-right: 26px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.futureWork >section .right .info >div{
+    color: #8695A4;
+}
+.futureWork >section .right >h2{
+    margin-top: 0px;
+}
+.font{
+    font-family: 'Heebo', sans-serif;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #E0E0E0;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer{
+    margin-left: 45%;
+
+}
+footer .socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    padding-bottom: 24px;
+    margin-left: -27px;
+}
+footer >img{
+    padding-bottom: 54px;
+}
+
+
+
