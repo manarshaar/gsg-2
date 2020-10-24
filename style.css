@@ -101,7 +101,7 @@ body { margin: 0; padding: 0; }
 
 .futureWork{
     padding: 29px 148px 300px 148px;
-    height: 70px;
+    height: 550px;
 }
 .futureWork >header{
     font-family: 'Heebo', sans-serif;
@@ -134,6 +134,21 @@ hr {
 }
 .font{
     font-family: 'Heebo', sans-serif;
+}
+
+footer{
+    margin-left: 45%;
+
+}
+footer .socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    padding-bottom: 24px;
+    margin-left: -27px;
+}
+footer >img{
+    padding-bottom: 54px;
 }
 
 
