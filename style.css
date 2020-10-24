@@ -1,32 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+html { margin: 0; padding: 0; }
+
+body { margin: 0; padding: 0; }
 
 .nav{
     display: flex;
     padding-left: 81%;
 }
-.nav div{
+.nav > div{
     padding: 1em;
     font-family: 'Heebo', sans-serif;
 }
 
 .intro{
     display: flex;
-    padding: 100px 148px 47px 148px;
-    
+    padding: 100px 148px 148px 148px;
+    justify-content: space-between;
 }
 .intro p{
     font-family: 'Heebo', sans-serif;
     font-size: 44px;
-    line-height: 60px;
     height: 105px;
     width: 506px;
     left: 148px;
     top: 228px;
-
 }
-.intro div{
+.intro .left{
+    width : 36%;
+}
+.intro .left span{
     font-family: 'Heebo', sans-serif;
     font-size: 16px;
     line-height: 23px;
@@ -39,7 +43,7 @@
     position: absolute;
     width: 208px;
     height: 47px;
-    left: 148px;
+    left: 154px;
     top: 477px;
     background: #FF6464;
     border-radius: 2px;
@@ -48,8 +52,51 @@
     font-size: 20px;
     line-height: 29px;
     color: white;
+    margin-left: -5px;
+}
+.intro .right{
+    padding-right: 148px;
 }
 .intro div img{
-    margin-left: 50%;
-    margin-top: 7%;
+    padding-left: 50%;
+    padding-top: 7%;
 }
+
+.recentPosts{
+    padding: 29px 148px 300px 148px;
+    background: #EDF7FA;
+    height: 396px;
+
+}
+.recentPosts section{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.recentPosts .head > div{
+    font-family: 'Heebo', sans-serif;
+    padding-bottom: 20px;
+}
+.recentPosts .head .title{
+    font-size: 22px;
+    display: flex;
+}
+.recentPosts .head .viewAll{
+    font-size: 16px;
+    text-align: right;
+    color: #00A8CC;
+}
+.recentPosts .posts >div{
+    background: white;
+    box-shadow: rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.recentPosts .posts div >p, .recentPosts .posts div >h2, 
+.recentPosts .posts div >span{
+    width: 450px; 
+    font-family: 'Heebo', sans-serif;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 27px;
+}
+
